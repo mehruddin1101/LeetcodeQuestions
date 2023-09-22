@@ -14,7 +14,7 @@ class Solution:
                 map[n]+=1
             else:
                 map[n] =1
-        return map;
+        return map
     def checkAnagram(self,map1, map2):
         # Check if the dictionaries have the same keys
         if set(map1.keys()) != set(map2.keys()):
